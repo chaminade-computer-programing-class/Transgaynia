@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MethodHolder
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MethodHolder\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=enemy1\ enemy2\ player
+comment1.target=void\ combat2(Enemy,\ Enemy,\ Player)
+comment2.params=
+comment2.target=MethodHolder()
+comment3.params=enemy1\ enemy2\ player
+comment3.target=void\ enemyd(Enemy,\ Enemy,\ Player)
+numComments=4
