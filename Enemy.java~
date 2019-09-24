@@ -1,11 +1,11 @@
-public class Enemy extends NPC {
-    private static  int dhealth;
+public class Enemy extends  {
+    private static int dhealth;
     private static String name;
     private static int health;
     private static int damage;
 
     public Enemy(String ename, int ehealth, int edamage) {
-         name = ename;
+        name = ename;
         health = ehealth;
         damage = edamage;
         dhealth = ehealth;

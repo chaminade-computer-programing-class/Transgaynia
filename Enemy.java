@@ -1,5 +1,5 @@
-public class Enemy extends NPC {
-    private static  int dhealth;
+public class Enemy {
+    private static int dhealth;
     private static String name;
     private static int health;
     private static int damage;
