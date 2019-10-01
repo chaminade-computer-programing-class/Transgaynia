@@ -1,8 +1,8 @@
 public class Enemy {
-    private static int dhealth;
-    private static String name;
-    private static int health;
-    private static int damage;
+    private int dhealth;
+    private String name;
+    private int health;
+    private int damage;
 
     public Enemy(String ename, int ehealth, int edamage) {
         name = ename;
