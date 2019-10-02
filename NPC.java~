@@ -2,8 +2,8 @@
 
 public class NPC {
     
-    protected static String race;
-    protected static String gender;
+    protected String race;
+    protected String gender;
     protected static String sexuality;
 
     

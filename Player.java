@@ -14,6 +14,7 @@ public class Player extends Friendly{
    private static int phealthp;
    private static int pcoins;
    private static int plevel;
+   public static String[] inventory = new String[20];
 
    public Player() {
       pname = "zargon";
