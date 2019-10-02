@@ -7,90 +7,59 @@ import java.util.Scanner;
  */
 public class MethodHolder
 {
-    public void combat2(Enemy enemy1, Enemy enemy2, Player player){
-        System.out.println("It is your turn");
+    int a;
+    int q;
+    Scanner ash = new Scanner(System.in);
+    
+    public ethodHolder() {
+    }
+    
+    
+    public void combat2(Enemy enemy1, Enemy enemy2, Player player, MethodHolder holder){
+
+        while(enemy1.gethealth() > 0 || enemy2.gethealth() > 0){
+            System.out.println("It is your turn");
             System.out.println("What do you do: (1)Attack the sentery " +
                                 "(2)Attack guard (3)heal");
             q = ash.nextInt();
             ash.nextLine();
             if (q == 1){
-                player1.pattack(light1, player1);
+                player.pattack(enemy1, player);
                 System.out.println(1);
-                System.out.println(light1.getname());
+                System.out.println(enemy1.getname());
             } else if (q == 2){
-                player1.pattack(medium1, player1);
+                player.pattack(enemy2, player);
                 System.out.println(2);
             }else if (q == 3){
-                player1.heal();
+                player.heal();
                 System.out.println(3);
             }
-            light1.deatht();
-            medium1.deatht();
-            holder1.enemyd(light1, medium1, player1);
+            enemy1.deatht();
+            enemy2.deatht();
+            holder.enemyd2(enemy1, enemy2, player);
             System.out.println("It is the gaurds turn");
-            player1.takedamage(medium1);
-            player1.deatht();
+            player.takedamage(enemy2);
+            player.deatht();
             System.out.println("It is your turn");
             System.out.println("What do you do: (1)Attack the sentery " +
                                 "(2)Attack guard (3)heal");
             a = ash.nextInt();
             ash.nextLine();
             if (a == 1){
-                player1.pattack(light1, player1);
+                player.pattack(enemy1, player);
             } else if (a == 2){
-                player1.pattack(medium1, player1);
+                player.pattack(enemy2, player);
             }else if (a == 3){
-                player1.heal();
+                player.heal();
             }
-            light1.deatht();
-            medium1.deatht();
-            holder1.enemyd(light1, medium1, player1);
-            System.out.println("It is the senteries turn");
-            player1.takedamage(light1);
-            player1.deatht();
-                if (light1.gethealth() <= 0){
-                    while (medium1.gethealth() > 0){
-                    System.out.println("It is your turn");
-                    System.out.println("What do you do: (1)Attack guard (2)heal");
-                    q = ash.nextInt();
-                    ash.nextLine();
-                    if (q == 1){
-                            player1.pattack(medium1, player1);
-                        } else if (q == 2){
-                        player1.heal();
-                    }   
-                    medium1.deatht();
-                    System.out.println("It is the gaurds turn");
-                    player1.takedamage(medium1);
-                    player1.deatht();
-                }   
-            } else if(medium1.gethealth() <= 0){
-               while(light1.gethealth() > 0){
-                    System.out.println("It is your turn");
-                    System.out.println("What do you do: (1)Attack the sentery (2)heal");
-                    a = ash.nextInt();
-                    ash.nextLine();
-                    if (q == 1){
-                        player1.pattack(light1, player1);
-                    }else if (q == 2){
-                        player1.heal();
-                    }
-                    light1.deatht();
-                    System.out.println("It is the senteries turn");
-                    player1.takedamage(light1);
-                    player1.deatht();
-               }
-            }
+            enemy1.deatht();
+            enemy2.deatht();
+            holder.enemyd2(enemy1, enemy2, player);
+            player.deatht();
         }
     }
-    int a;
-    int q;
-    Scanner ash = new Scanner(System.in);
-    public MethodHolder(){
-        
-    }
-    
-    public void enemyd(Enemy enemy1, Enemy enemy2, Player player) {
+
+    public void enemyd2(Enemy enemy1, Enemy enemy2, Player player) {
         
         if (enemy1.gethealth() <= 0){
             while (enemy2.gethealth() > 0){

@@ -36,7 +36,7 @@ public class Ctest{
             }
             light1.deatht();
             medium1.deatht();
-            holder1.enemyd(light1, medium1, player1);
+            holder1.enemyd2(light1, medium1, player1);
             System.out.println("It is the gaurds turn");
             player1.takedamage(medium1);
             player1.deatht();
@@ -54,7 +54,7 @@ public class Ctest{
             }
             light1.deatht();
             medium1.deatht();
-            holder1.enemyd(light1, medium1, player1);
+            holder1.enemyd2(light1, medium1, player1);
             System.out.println("It is the senteries turn");
             player1.takedamage(light1);
             player1.deatht();
