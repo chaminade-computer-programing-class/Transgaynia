@@ -14,7 +14,7 @@ public class Player extends Friendly{
    private static int phealthp;
    private static int pcoins;
    private static int plevel;
-   
+   public static String[] inventory = new String[20];
 
    public Player() {
       pname = "zargon";
@@ -129,6 +129,5 @@ public class Player extends Friendly{
        System.out.println();
        System.out.println();
        System.out.println("GAME OVER");
-       throw new IllegalArgumentException();
     }
    }

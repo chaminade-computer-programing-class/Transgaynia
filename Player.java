@@ -129,6 +129,5 @@ public class Player extends Friendly{
        System.out.println();
        System.out.println();
        System.out.println("GAME OVER");
-       throw new IllegalArgumentException();
     }
    }
