@@ -10,8 +10,9 @@ import java.util.Random;
 public class transgaynia {
     public static void main(String[] args) throws InterruptedException {
         Player player1 = new Player();
-        Enemy Light1 = new Enemy();
-        Enemy medium1 = new Enemy("Kobold guard", 10, 5);
+        Enemy Light1 = new Enemy("Kolbold scout", 3,3);
+        Enemy light1 = new Enemy("Kobold scout", 3, 3);
+        MethodHolder holder1 = new MethodHolder();
         Scanner ash = new Scanner(System.in);
         System.out.println("you see a old shamble tavern. Its walls are covered by graffiti. You enter");
         Thread.sleep(1000);
@@ -59,22 +60,41 @@ public class transgaynia {
         System.out.println("Zargon: Thank you for coming " + player1.getpname() + ",  because we need your help");
         Thread.sleep(1000);
         System.out.println("Zargon: The King of the phobes, Mike Pentce, has Kidnaped our"
-                + "Trans princess and prassed gender roll laws on the the kingdom");
+                + "Trans princess, Ashley, and prassed gender roll laws on the the kingdom");
         Thread.sleep(1000);
         System.out.println("You: He took my Sister! Tell me where he is and ill beat the crap out of him.");
         Thread.sleep(1000);
-        System.out.println("Zargon: You cant just go barging in tothe castle with a stick for a weapon");
+        System.out.println("Zargon: You cant just go barging in to the castle with a stick for a weapon");
         Thread.sleep(1000);
         System.out.println("You look down at your belt and you see a twige in your scabered");
         Thread.sleep(1000);
         System.out.println("Zargon: Take these coins and got buy some gear");
         Thread.sleep(1000);
-        player1.setpcoins(20);
-        System.out.println("Coins: " + player1.getpcoins());
+        player1.setpcoins(40);
+        System.out.println("Coins =  " + player1.getpcoins());
         Thread.sleep(1000);
         System.out.println("You walk out side");
-        System.out.println();
+        System.out.println("you see a sighn that says \" Doors weapon emporium\"" );
         Thread.sleep(1000);
+        System.out.println("Door: Ellow I am door, Welcome to my shop. how my I elp you?");
+        Thread.sleep(1000);
+        System.out.println("You: Hello door, I would like to buy a weapon");
+        Thread.sleep(1000);
+        System.out.println("Door: yes, I ave many items of the weapon");
+        Thread.sleep(1000);
+        System.out.println("I have (1)long sword (2)war hammer (3)battle axe (4)dual daggers");
+        System.out.println("take you pick");
+        int w = ash.nextInt();
+        ash.nextLine();
 
-    }
+
+
+
+
+
+
+
+
+
+     }
 }

@@ -12,6 +12,7 @@ public class transgaynia {
         Player player1 = new Player();
         Enemy Light1 = new Enemy();
         Enemy medium1 = new Enemy("Kobold guard", 10, 5);
+        MethodHolder holder1 = new MethodHolder();
         Scanner ash = new Scanner(System.in);
         System.out.println("you see a old shamble tavern. Its walls are covered by graffiti. You enter");
         Thread.sleep(1000);
@@ -63,7 +64,7 @@ public class transgaynia {
         Thread.sleep(1000);
         System.out.println("You: He took my Sister! Tell me where he is and ill beat the crap out of him.");
         Thread.sleep(1000);
-        System.out.println("Zargon: You cant just go barging in tothe castle with a stick for a weapon");
+        System.out.println("Zargon: You cant just go barging in to the castle with a stick for a weapon");
         Thread.sleep(1000);
         System.out.println("You look down at your belt and you see a twige in your scabered");
         Thread.sleep(1000);
@@ -73,8 +74,10 @@ public class transgaynia {
         System.out.println("Coins: " + player1.getpcoins());
         Thread.sleep(1000);
         System.out.println("You walk out side");
-        System.out.println();
+        System.out.println("you see a sighn that says \" Doors weapon emporium\"" );
         Thread.sleep(1000);
-
+        System.out.println("Door: Ellow I am door, Welcome to my shop. how my I elp you?");
+        Thread.sleep(1000);
+        System.out.println("You");
     }
 }
