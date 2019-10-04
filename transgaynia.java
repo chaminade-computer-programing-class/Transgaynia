@@ -85,7 +85,6 @@ public class transgaynia {
         System.out.println("I have (1)long sword (2)war hammer (3)battle axe (4)dual daggers");
         System.out.println("take you pick");
         boolean loop = false;
-        while (loop){
         int w = ash.nextInt();
         ash.nextLine();
         if (w == 1){
@@ -103,19 +102,20 @@ public class transgaynia {
         else if (w == 3){
             System.out.println("Door: here your battle axe");
             player1.setwn("battle axe");
-            player1.setwd(10):
+            player1.setwd(10);
             loop = true;
         }
         else if (w == 4){
             System.out.println("Door: here your dual daggers");
             player1.setwn("dual daggers");
-            player1.setwd(10):
+            player1.setwd(10);
             loop = true;
         }
         else {
-            System.out.println("Door: i have no idea what you are talking about pick another weapon");
+            System.out.println("Door: i have no idea what you are talking about so here is a slighty stonger stick");
+            player1.setwn("hard stick");
+            pplayer1.setwd(4);
         }
-    }
 
 
 
