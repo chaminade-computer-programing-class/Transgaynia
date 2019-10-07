@@ -28,7 +28,7 @@ public class transgaynia {
         player1.setpsexuality(ash.nextLine());
         System.out.println("You: Im a " + player1.getpsexuality() + " " + player1.getpgender());
         Thread.sleep(1000);
-        System.out.println("Hagor: Ah, good your not a phobe are you wound outa here.");
+        System.out.println("Hagor: Ah, good your not a phobe are you would be outa here.");
         Thread.sleep(1000);
         System.out.println("Hagor: can get you a drink?");
         Thread.sleep(1000);
@@ -73,7 +73,8 @@ public class transgaynia {
         player1.setpcoins(40);
         System.out.println("Coins =  " + player1.getpcoins());
         Thread.sleep(1000);
-        System.out.println("You walk out side");
+        System.out.println("You walk outside");
+        Thread.sleep(1000);
         System.out.println("you see a sighn that says \" Doors weapon emporium\"" );
         Thread.sleep(1000);
         System.out.println("Door: Ellow I am door, Welcome to my shop. how my I elp you?");
@@ -84,38 +85,45 @@ public class transgaynia {
         Thread.sleep(1000);
         System.out.println("I have (1)long sword (2)war hammer (3)battle axe (4)dual daggers");
         System.out.println("take you pick");
+        Thread.sleep(1000);
         boolean loop = false;
-        int w = ash.nextInt();
-        ash.nextLine();
-        if (w == 1){
-            System.out.println("Door: here your long sword");
-            player1.setwn("Long sword");
-            player1.setwd(10);
-            loop = true;
+        while(loop == false){
+            int w = ash.nextInt();
+            ash.nextLine();
+            if (w == 1){
+                System.out.println("Door: here your long sword");
+                player1.setwn("Long sword");
+                player1.setwd(10);
+                System.out .println("Weapon: " + player1.getwn(); + "Damage: " + player1.getwd());
+                loop = true;
+            }
+            else if (w == 2){
+                System.out.println("Door: here your War Hammer");
+                player1.setwn("war Hammer");
+                player1.setwd(10);
+                System.out .println("Weapon: " + player1.getwn(); + "Damage: " + player1.getwd());
+                loop = true;
+            }
+            else if (w == 3){
+                System.out.println("Door: here your battle axe");
+                player1.setwn("battle axe");
+                player1.setwd(10);
+                System.out .println("Weapon: " + player1.getwn(); + "Damage: " + player1.getwd());
+                loop = true;
+            }
+            else if (w == 4){
+                System.out.println("Door: here your dual daggers");
+                player1.setwn("dual daggers");
+                player1.setwd(10);
+                System.out .println("Weapon: " + player1.getwn(); + "Damage: " + player1.getwd());
+                loop = true;
+            }
+            else {
+                System.out.println("Door: i have no idea what you are talking about please choose a difrant weapon");
+            }
         }
-        else if (w == 2){
-            System.out.println("Door: here your War Hammer");
-            player1.setwn("war Hammer");
-            player1.setwd(10);
-            loop = true;
-        }
-        else if (w == 3){
-            System.out.println("Door: here your battle axe");
-            player1.setwn("battle axe");
-            player1.setwd(10);
-            loop = true;
-        }
-        else if (w == 4){
-            System.out.println("Door: here your dual daggers");
-            player1.setwn("dual daggers");
-            player1.setwd(10);
-            loop = true;
-        }
-        else {
-            System.out.println("Door: i have no idea what you are talking about so here is a slighty stonger stick");
-            player1.setwn("hard stick");
-            pplayer1.setwd(4);
-        }
+        Thread.sleep(1000);
+        System.out.println("You: thank you door");
 
 
 
