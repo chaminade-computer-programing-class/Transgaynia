@@ -94,28 +94,28 @@ public class transgaynia {
                 System.out.println("Door: here your long sword");
                 player1.setwn("Long sword");
                 player1.setwd(10);
-                System.out .println("Weapon: " + player1.getwn(); + "Damage: " + player1.getwd());
+                System.out .println("Weapon: " + player1.getwn() + "Damage: " + player1.getwd());
                 loop = true;
             }
             else if (w == 2){
                 System.out.println("Door: here your War Hammer");
                 player1.setwn("war Hammer");
                 player1.setwd(10);
-                System.out .println("Weapon: " + player1.getwn(); + "Damage: " + player1.getwd());
+                System.out .println("Weapon: " + player1.getwn() + "Damage: " + player1.getwd());
                 loop = true;
             }
             else if (w == 3){
                 System.out.println("Door: here your battle axe");
                 player1.setwn("battle axe");
                 player1.setwd(10);
-                System.out .println("Weapon: " + player1.getwn(); + "Damage: " + player1.getwd());
+                System.out .println("Weapon: " + player1.getwn() + "Damage: " + player1.getwd());
                 loop = true;
             }
             else if (w == 4){
                 System.out.println("Door: here your dual daggers");
                 player1.setwn("dual daggers");
                 player1.setwd(10);
-                System.out .println("Weapon: " + player1.getwn(); + "Damage: " + player1.getwd());
+                System.out .println("Weapon: " + player1.getwn() + "Damage: " + player1.getwd());
                 loop = true;
             }
             else {
@@ -124,6 +124,8 @@ public class transgaynia {
         }
         Thread.sleep(1000);
         System.out.println("You: thank you door");
+        Thread.sleep(1000);
+        System.out.println("Door");
 
 
 
