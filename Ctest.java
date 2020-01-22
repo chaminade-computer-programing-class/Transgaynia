@@ -1,10 +1,5 @@
 import java.util.Scanner;
-/**
- * Write a description of class Ctest here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+
 public class Ctest{
     static void main(String[] args)throws InterruptedException{
         Player player1 = new Player();
