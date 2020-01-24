@@ -37,12 +37,17 @@ public class Opening{
             Enter.enter();
         int q = ash.nextInt();
         ash.nextLine();
-        if (q == 1) {
-            System.out.println("You: Gayderade please");
-        } else if (q == 2) {
-            System.out.println("You: The Tea plaese");
-        } else {
-            System.out.println("Invalade imput");
+        while(boolean loop == true){
+            if (q == 1) {
+                System.out.println("You: Gayderade please");
+                loop = false;
+            } else if (q == 2) {
+                System.out.println("You: The Tea plaese");
+                loop = false;
+            } else {
+                System.out.println("Invalade imput");
+                loop = true;
+            }
         }
             Enter.enter();
         System.out.println("Hagor: Coming right up");
@@ -50,7 +55,7 @@ public class Opening{
         System.out.println("You: Hay, what is a phobe?");
             Enter.enter();
         System.out.println(
-                "Hagor: you don't know! We got invaded by phodes! They hate out kind, like the oppiset of allies!");
+                "Hagor: you don't know! We got invaded by phodes! They hate our kind, like the oppiset of allies!");
             Enter.enter();
         System.out.println("Hagor: You need to get to the police station right away so they can fill you in");
             Enter.enter();
