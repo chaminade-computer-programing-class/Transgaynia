@@ -1,19 +1,15 @@
-  
-/**
- * McDonough Cook 3/5/19
- * 
- */
+
 
 public class Player extends Friendly{
-   private static String pname;
-   private static String pgender;
-   private static String psexuality;
-   private static String wn;
-   private static int wd;
-   private static int phealth;
-   private static int phealthp;
-   private static int pcoins;
-   private static int plevel;
+   private String pname;
+   private String pgender;
+   private String psexuality;
+   private String wn;
+   private int wd;
+   private int phealth;
+   private int phealthp;
+   private int pcoins;
+   private int plevel;
    public static String[] inventory = new String[20];
 
    public Player() {
@@ -70,7 +66,7 @@ public class Player extends Friendly{
       return phealth;
    }
 
-   public void setphealth(int pheath) {
+   public void setphealth(int phealth) {
       this.phealth = phealth;
    }
 

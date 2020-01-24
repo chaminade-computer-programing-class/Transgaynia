@@ -1,11 +1,9 @@
-package transgaynia.Story_Segmets;
+package Story_Segmets;
 
-import Transgaynia.Enemy;
-import Trangaynia.Friendly;
 import java.util.Scanner;
-import java.util.Random;
-import transgaynia.methods.enter
-import transgaynia.methods.Combat;
+
+import Enemy;
+import Transgaynia.methods.Enter;
 
 public class Opening{
 

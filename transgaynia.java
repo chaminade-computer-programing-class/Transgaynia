@@ -1,12 +1,11 @@
 import java.util.Scanner;
-import java.util.Random;
-import transgaynia.MethodHolder;
-import transgaynia.Story_Segments.Opening;
-import transgaynia.methods.Combat;
-import transgaynia.methods.Enter;
-import transgaynia.methods.DiceRoller;
+
+import Story_Segmets.Opening;
+import Transgaynia.methods.DiceRoller;
+import Transgaynia.methods.Enter;
 
 public class transgaynia {
+    
     public static void main(String[] args) throws InterruptedException {
         Player player1 = new Player();
         Enemy Light1 = new Enemy("Kolbold scout", 3,3);
@@ -18,16 +17,16 @@ public class transgaynia {
         System.out.println("you leave the town. who knows if you will ever be back.");
             Enter.enter();
         System.out.println("you come to a 3 way fork");
-        System.out.println("roling perseption")
-            thread.sleep(4000);
+        System.out.println("roling perseption");
+            Thread.sleep(4000);
         DiceRoller.roll(20);
             Enter.enter();
         switch (DiceRoller.getdice()) {
             case 20:
             case 19:
             case 18:
-                System.out.println("you see a dark cloud direcly in front of you wand a couple of dark sadows.
-                \n down the other paths you only see one figure");
+                System.out.println("you see a dark cloud direcly in front of you wand a couple of dark sadows. " + 
+                  "down the other paths you only see one figure");
                 break;
             case 17:
             case 16:
