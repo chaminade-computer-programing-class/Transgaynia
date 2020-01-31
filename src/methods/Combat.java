@@ -1,5 +1,5 @@
 
-package Transgaynia.methods;
+package Trangaynia.methods;
 
 import Transgaynia.Enemy;
 import Trangaynia.Friendly;

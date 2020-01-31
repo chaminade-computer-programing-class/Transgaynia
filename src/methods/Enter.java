@@ -1,4 +1,4 @@
-package Transgaynia.methods;
+package transgaynia.mehtods;
 
 import java.util.Scanner;
 

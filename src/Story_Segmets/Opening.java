@@ -2,12 +2,12 @@ package Story_Segmets;
 
 import java.util.Scanner;
 
-import Enemy;
-import Transgaynia.methods.Enter;
+import Transgaynia.methods.*;
+import Transgaynia.*;
 
 public class Opening{
 
-    public void static opening(){
+    public static void opening(){
         Player player1 = new Player();
         Enemy Light1 = new Enemy("Kolbold scout", 3,3);
         Enemy light1 = new Enemy("Kobold scout", 3, 3);
@@ -93,7 +93,7 @@ public class Opening{
             while(boolean loop == true){
                 int w = ash.nextInt();
                 ash.nextLine();
-                if (w == 1){
+                if (w == 1) {
                     System.out.println("Door: here your long sword");
                     player1.setwn("Long sword");
                     player1.setwd(10);
