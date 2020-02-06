@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Scanner;
 /**
  * Write a description of class MethodHolder here.

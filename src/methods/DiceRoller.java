@@ -1,4 +1,4 @@
-package transgaynia.methods;
+package src.methods;
 
 import java.util.Scanner;
 import java.util.Random;
@@ -13,12 +13,12 @@ public class DiceRoller {
     private int dice;
         Random rn = new Random();
 
-    public void roll(int size){
+    public static void roll(int size){
         dice = rn.nextInt(size) + 1;
         System.out.println("You role a" + dice + "on a D" + size);
     }
 
-    public void getdice(){
+    public static void getdice(){
         return dice;
     }
 

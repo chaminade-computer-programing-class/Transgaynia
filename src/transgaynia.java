@@ -1,8 +1,10 @@
+package src;
+
 import java.util.Scanner;
 
-import Story_Segmets.Opening;
-import Transgaynia.methods.DiceRoller;
-import Transgaynia.methods.Enter;
+import src.Story_Segmets.Opening;
+import src.methods.DiceRoller;
+import src.methods.Enter;
 
 public class transgaynia {
     

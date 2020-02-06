@@ -4,9 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-        
-        
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - transgaynia",
+            "request": "launch",
+            "mainClass": "src.transgaynia",
+            "projectName": "Transgaynia_56e1623d"
+        },
         {
             "name": "Java",
             "type": "java",

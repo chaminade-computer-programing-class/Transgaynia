@@ -1,4 +1,4 @@
-package Story_Segmets;
+package src.Story_Segmets;
 
 import java.util.Scanner;
 
