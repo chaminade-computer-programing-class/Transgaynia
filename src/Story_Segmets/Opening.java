@@ -2,8 +2,9 @@ package src.Story_Segmets;
 
 import java.util.Scanner;
 
-import Transgaynia.methods.*;
-import Transgaynia.*;
+import src.Enemy;
+import src.Player;
+import src.methods.Enter;
 
 public class Opening{
 
