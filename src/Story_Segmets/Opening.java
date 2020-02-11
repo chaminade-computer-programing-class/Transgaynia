@@ -36,7 +36,8 @@ public class Opening{
             Enter.enter();
         int q = ash.nextInt();
         ash.nextLine();
-        while(boolean loop == true){
+        boolean loop = true;
+        while(loop == true){
             if (q == 1) {
                 System.out.println("You: Gayderade please");
                 loop = false;

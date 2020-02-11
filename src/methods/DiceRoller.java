@@ -18,7 +18,7 @@ public class DiceRoller {
         System.out.println("You role a" + dice + "on a D" + size);
     }
 
-    public static void getdice(){
+    public static int getdice(){
         return dice;
     }
 

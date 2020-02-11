@@ -23,7 +23,9 @@ public class transgaynia {
             Thread.sleep(4000);
         DiceRoller.roll(20);
             Enter.enter();
-        switch (DiceRoller.getdice()) {
+            DiceRoller.roll(20);
+        int s = DiceRoller.getdice();
+        switch (s) {
             case 20:
             case 19:
             case 18:
