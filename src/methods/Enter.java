@@ -1,19 +1,15 @@
-package transgaynia.mehtods;
+package src.methods;
 
 import java.util.Scanner;
 
 
 public class Enter{
-Scanner ash = new Scanner(System.in);
-    public void enter(){
+    static Scanner ash = new Scanner(Syst
+
+    public static void enter() {
         String input;
         input = ash.nextLine();
             if (input.equals("")) {
-                System.out.println();
-
-            }
-            
-            else if (imput.equals(" ")){
                 System.out.println();
 
             }

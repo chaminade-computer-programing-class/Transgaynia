@@ -34,6 +34,9 @@ public class transgaynia {
                 break;
             case 17:
             case 16:
+
+            case 16:
+
             case 15:
             case 14:
             case 13:
@@ -84,6 +87,7 @@ public class transgaynia {
                 // enter again dumbass
                 break;
         }
+
 
         
         
