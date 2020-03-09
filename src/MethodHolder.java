@@ -7,8 +7,7 @@ import java.util.Scanner;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class MethodHolder
-{
+public class MethodHolder {
     int a;
     int q;
     Scanner ash = new Scanner(System.in);
@@ -16,9 +15,7 @@ public class MethodHolder
     public MethodHolder() {
     }
     
-    
    
 
 
-    public void enemyd3()
 }
