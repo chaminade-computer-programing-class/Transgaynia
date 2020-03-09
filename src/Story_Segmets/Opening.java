@@ -134,7 +134,7 @@ public class Opening{
             Enter.enter();
         System.out.println("Door: You welcome " + player1.getpname());
             Enter.enter();
-        System.println("you exit door's shop and head to the eadge of town.");
+        System.out.println("you exit door's shop and head to the eadge of town.");
             Enter.enter();
         System.out.println("The hole town is there whaiting fot you");
             Enter.enter();
