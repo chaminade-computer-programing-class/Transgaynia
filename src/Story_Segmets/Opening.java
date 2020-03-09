@@ -1,15 +1,14 @@
-package transgaynia.Story_Segmets;
+package src.Story_Segmets;
 
-import Transgaynia.Enemy;
-import Trangaynia.Friendly;
 import java.util.Scanner;
-import java.util.Random;
-import transgaynia.methods.enter
-import transgaynia.methods.Combat;
+
+import src.Enemy;
+import src.Player;
+import src.methods.Enter;
 
 public class Opening{
 
-    public void static opening(){
+    public static void opening(){
         Player player1 = new Player();
         Enemy Light1 = new Enemy("Kolbold scout", 3,3);
         Enemy light1 = new Enemy("Kobold scout", 3, 3);
@@ -37,7 +36,8 @@ public class Opening{
             Enter.enter();
         int q = ash.nextInt();
         ash.nextLine();
-        while(boolean loop == true){
+        boolean loop = true;
+        while(loop == true){
             if (q == 1) {
                 System.out.println("You: Gayderade please");
                 loop = false;
@@ -95,7 +95,7 @@ public class Opening{
             while(boolean loop == true){
                 int w = ash.nextInt();
                 ash.nextLine();
-                if (w == 1){
+                if (w == 1) {
                     System.out.println("Door: here your long sword");
                     player1.setwn("Long sword");
                     player1.setwd(10);
