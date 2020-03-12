@@ -34,9 +34,6 @@ public class transgaynia {
                 break;
             case 17:
             case 16:
-
-            case 16:
-
             case 15:
             case 14:
             case 13:
@@ -69,31 +66,24 @@ public class transgaynia {
         System.out.println("Left(1) Middle(2) Right(3)");
         int q = ash.nextInt();
         ash.nextLine();
-        boolean h = false;
-        while(h == true){
-            switch (q){
-                case 1:
-                    //to tower seg
-                    break;
 
-                case 2:
-                    //to fort seg
-                    h = false;
-                    break;
+        switch (q){
+            case 1:
+                //to tower seg
+                break;
 
-                case 3:
-                    // to ocupide town seg
-                    h = false;
-                    break;
-                
-                default:
-                    // enter again dumbass
-                    h = true;
-                    break;
-            }
-    }
+            case 2:
+                //to fort seg
+                break;
 
-
+            case 3:
+                // to ocupide town seg
+                break;
+            
+            default:
+                // enter again dumbass
+                break;
+        }
 
         
         
