@@ -9,7 +9,8 @@
             "name": "CodeLens (Launch) - transgaynia",
             "request": "launch",
             "mainClass": "src.transgaynia",
-            "projectName": "Transgaynia_56e1623d"
+            "projectName": "Transgaynia_56e1623d",
+            "console": "integratedTerminal"
         },
         {
             "name": "Java",

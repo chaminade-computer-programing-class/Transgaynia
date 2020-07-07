@@ -10,11 +10,12 @@ public class Opening{
 
     public static void opening(){
         Player player1 = new Player();
-        Enemy Light1 = new Enemy("Kolbold scout", 3,3);
-        Enemy light1 = new Enemy("Kobold scout", 3, 3);
         Scanner ash = new Scanner(System.in);
 
-    System.out.println("you see a old shamble tavern. Its walls are covered by graffiti. You enter");
+        System.out.println("Sintax: forward, back = moving though rooms and settings forward and back respecfuly");
+        Systen.out.println("");
+
+        System.out.println("you see a old shamble tavern. Its walls are covered by graffiti. You enter");
             Enter.enter();
         System.out.println("Hagor: welcome to my tavern great adventurer. What is your name.");
         player1.setpname(ash.nextLine());

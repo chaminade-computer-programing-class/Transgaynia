@@ -25,31 +25,35 @@ public class transgaynia {
             Enter.enter();
             DiceRoller.roll(20);
         int s = DiceRoller.getdice();
+        boolean f;
         switch (s) {
             case 20:
             case 19:
             case 18:
                 System.out.println("you see a dark cloud direcly in front of you wand a couple of dark sadows. " + 
-                  "down the other paths you only see one figure");
+                  "down the other path you only see one figure");
+                System.out.println("you notice a small wellhiden opening in the thick brush to your left.");
+                System.out.println("It seams to be a secrat path.");
+                    f = true;
                 break;
             case 17:
             case 16:
-
-            case 16:
-
             case 15:
             case 14:
             case 13:
             case 12:
             case 11:
             case 10:
-                System.out.println("you see a dark clowd over the middle path");
+                System.out.println("you see a dark cloud direcly in front of you wand a couple of dark sadows. " + 
+                    "down the other path you only see one figure");
+                    f = false;
                 break;
             case 9:
             case 8:
             case 7:
             case 6:
                 System.out.println("you think you see somthing down the middle path");
+                    f = false;
                 break;
             case 5:
             case 4:
@@ -58,36 +62,43 @@ public class transgaynia {
             case 1:
             case 0:
                 System.out.println("You see jack shit");
+                    f = false;
                 break;
         
             default:
                 System.out.println("You see jack shit");
+                    f = false;
                 break;
         }
 
         System.out.println("What path will you go down?");
-        System.out.println("Left(1) Middle(2) Right(3)");
-        int q = ash.nextInt();
-        ash.nextLine();
+        if (f == true){
+            System.out.println("Middle(1) Right(2) left(3)");
+        } else if (f == false){
+            System.out.println("Middle(1) Right(2)");
+        }
+        int q;
         boolean h = false;
         while(h == true){
+            q = ash.nextInt();
+            ash.nextLine();
             switch (q){
                 case 1:
-                    //to tower seg
+                    //to fort seg
                     break;
 
                 case 2:
-                    //to fort seg
+                    //to ocupide town seg
                     h = false;
                     break;
 
                 case 3:
-                    // to ocupide town seg
+                    // to tower seg
                     h = false;
                     break;
                 
                 default:
-                    // enter again dumbass
+                    System.out.println("enter again dumbass!");
                     h = true;
                     break;
             }
