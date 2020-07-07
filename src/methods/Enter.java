@@ -1,10 +1,10 @@
-package src.methods;
+package methods;
 
 import java.util.Scanner;
 
 
 public class Enter{
-    static Scanner ash = new Scanner(Syst
+    static Scanner ash = new Scanner(System.in);
 
     public static void enter() {
         String input;

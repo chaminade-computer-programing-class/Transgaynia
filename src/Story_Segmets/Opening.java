@@ -1,20 +1,20 @@
-package src.Story_Segmets;
+package Story_Segmets;
 
 import java.util.Scanner;
 
-import src.Enemy;
-import src.Player;
-import src.methods.Enter;
+import Player;
+import methods.Enter;
 
 public class Opening{
 
     public static void opening(){
         Player player1 = new Player();
-        Enemy Light1 = new Enemy("Kolbold scout", 3,3);
-        Enemy light1 = new Enemy("Kobold scout", 3, 3);
-        Scanner ash = new Scanner(System.in);
+        Scanner ash = new Scanner (System.in);
 
-    System.out.println("you see a old shamble tavern. Its walls are covered by graffiti. You enter");
+        System.out.println("Sintax: forward, back = moving though rooms and settings forward and back respecfuly");
+        System.out.println("");
+
+        System.out.println("you see a old shamble tavern. Its walls are covered by graffiti. You enter");
             Enter.enter();
         System.out.println("Hagor: welcome to my tavern great adventurer. What is your name.");
         player1.setpname(ash.nextLine());
@@ -32,7 +32,7 @@ public class Opening{
             Enter.enter();
         System.out.println("Hagor: can get you a drink?");
             Enter.enter();
-        System.out.println("1: Gayderaid 2: The tea");
+        System.out.println("1: Gayderaid 2: The tea(iced)");
             Enter.enter();
         int q = ash.nextInt();
         ash.nextLine();
@@ -92,7 +92,8 @@ public class Opening{
         System.out.println("I have (1)long sword (2)war hammer (3)battle axe (4)dual daggers");
         System.out.println("take you pick");
             Enter.enter();
-            while(boolean loop == true){
+            loop = true;
+            while(loop == true){
                 int w = ash.nextInt();
                 ash.nextLine();
                 if (w == 1) {

@@ -1,4 +1,4 @@
-package src.methods;
+package methods;
 
 import java.util.Scanner;
 import java.util.Random;
@@ -10,8 +10,8 @@ import java.util.Random;
  * @version (a version number or a date)
  */
 public class DiceRoller {
-    private int dice;
-        Random rn = new Random();
+    private static int dice;
+    static Random rn = new Random();
 
     public static void roll(int size){
         dice = rn.nextInt(size) + 1;

@@ -1,4 +1,4 @@
-package src;
+
 
 public class Player extends Friendly{
    private String pname;
