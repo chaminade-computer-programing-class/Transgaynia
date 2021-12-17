@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package Story_Segmets;
 
 import java.util.Scanner;
@@ -5,6 +6,15 @@ import java.util.Scanner;
 import Enemy;
 import Player;
 import methods.Enter;
+=======
+package src.Story_Segmets;
+
+import java.util.Scanner;
+
+import src.Enemy;
+import src.Player;
+import src.methods.Enter;
+>>>>>>> master
 
 public class OcTown{
 

@@ -9,10 +9,17 @@ public class Opening{
 
     public static void opening(){
         Player player1 = new Player();
+<<<<<<< HEAD
         Scanner ash = new Scanner (System.in);
 
         System.out.println("Sintax: forward, back = moving though rooms and settings forward and back respecfuly");
         System.out.println("");
+=======
+        Scanner ash = new Scanner(System.in);
+
+        System.out.println("Sintax: forward, back = moving though rooms and settings forward and back respecfuly");
+        Systen.out.println("");
+>>>>>>> master
 
         System.out.println("you see a old shamble tavern. Its walls are covered by graffiti. You enter");
             Enter.enter();
